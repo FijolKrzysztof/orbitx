@@ -1,0 +1,380 @@
+1670255791022	geckodriver	INFO	Listening on 127.0.0.1:34369
+1670255791549	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "34087" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilee8tr4U"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670255792733	Marionette	INFO	Marionette enabled
+1670255792737	Marionette	INFO	Listening on port 40433
+Read port: 40433
+WebDriver BiDi listening on ws://127.0.0.1:34087
+1670255792889	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilee8tr4U/search.json.mozlz4", (void 0)))
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 152: TypeError: date is undefined
+DevTools listening on ws://127.0.0.1:34087/devtools/browser/75d0fbdc-b5da-4717-acf4-7ddc150b203e
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 304: NS_ERROR_FAILURE: Should pass a non-null uri
+1670255798538	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: moz-extension://93101554-e59e-4bca-9689-fb94f6460f9f."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.orbitxch.com."
+1670255847227	Marionette	INFO	Stopped listening on port 40433
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670255848013	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)
+1670256155944	geckodriver	INFO	Listening on 127.0.0.1:36245
+1670256155949	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "56207" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilesvkSYX"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670256156968	Marionette	INFO	Marionette enabled
+1670256156971	Marionette	INFO	Listening on port 40509
+WebDriver BiDi listening on ws://127.0.0.1:56207
+Read port: 40509
+1670256157201	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilesvkSYX/search.json.mozlz4", (void 0)))
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 152: TypeError: date is undefined
+DevTools listening on ws://127.0.0.1:56207/devtools/browser/5763ad27-b30a-480c-81bf-ef7f0399fc47
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 304: NS_ERROR_FAILURE: Should pass a non-null uri
+1670256167902	Marionette	INFO	Stopped listening on port 40509
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1670256169257	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)
+1670256212716	geckodriver	INFO	Listening on 127.0.0.1:55469
+1670256212720	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "47141" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile3RCLRc"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670256213659	Marionette	INFO	Marionette enabled
+1670256213663	Marionette	INFO	Listening on port 38619
+Read port: 38619
+WebDriver BiDi listening on ws://127.0.0.1:47141
+1670256213762	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile3RCLRc/search.json.mozlz4", (void 0)))
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 152: TypeError: date is undefined
+DevTools listening on ws://127.0.0.1:47141/devtools/browser/04a5eacb-9408-426d-97cb-d1f2549b7b0c
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 304: NS_ERROR_FAILURE: Should pass a non-null uri
+1670256218678	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: moz-extension://f4782def-d7a5-46d5-8d20-881a9a49b1f9."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.orbitxch.com."
+1670256524898	Marionette	INFO	Stopped listening on port 38619
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1670256571293	geckodriver	INFO	Listening on 127.0.0.1:57659
+1670256571309	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "58863" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileBz7imu"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670256572268	Marionette	INFO	Marionette enabled
+1670256572271	Marionette	INFO	Listening on port 45073
+Read port: 45073
+WebDriver BiDi listening on ws://127.0.0.1:58863
+1670256572372	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileBz7imu/search.json.mozlz4", (void 0)))
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 152: TypeError: date is undefined
+DevTools listening on ws://127.0.0.1:58863/devtools/browser/62a0b0a7-dffd-4a4a-b65b-96f08ae1f57f
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 304: NS_ERROR_FAILURE: Should pass a non-null uri
+1670256579253	Marionette	INFO	Stopped listening on port 45073
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670256583274	geckodriver	INFO	Listening on 127.0.0.1:56047
+1670256583279	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "51219" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilejdupcg"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670256584274	Marionette	INFO	Marionette enabled
+1670256584279	Marionette	INFO	Listening on port 33153
+Read port: 33153
+WebDriver BiDi listening on ws://127.0.0.1:51219
+1670256584398	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilejdupcg/search.json.mozlz4", (void 0)))
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 152: TypeError: date is undefined
+DevTools listening on ws://127.0.0.1:51219/devtools/browser/3a0f9439-0fcb-404a-b520-315290438b69
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 304: NS_ERROR_FAILURE: Should pass a non-null uri
+1670256589282	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: moz-extension://56f00dd1-0a3f-4eef-89d2-7f0d2ca1fe41."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.orbitxch.com."
+1670256762186	geckodriver	INFO	Listening on 127.0.0.1:48657
+1670256762191	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "51083" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilenu9TCW"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670256763145	Marionette	INFO	Marionette enabled
+1670256763148	Marionette	INFO	Listening on port 38347
+Read port: 38347
+WebDriver BiDi listening on ws://127.0.0.1:51083
+1670256763252	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilenu9TCW/search.json.mozlz4", (void 0)))
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 152: TypeError: date is undefined
+DevTools listening on ws://127.0.0.1:51083/devtools/browser/9e1cec66-9c73-45a4-a92d-aaaac235e4a7
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 304: NS_ERROR_FAILURE: Should pass a non-null uri
+1670256768043	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: moz-extension://e4276719-be19-4403-9a18-c2215c06a904."
+JavaScript error: , line 0: TypeError: can't access dead object
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.orbitxch.com."
+1670256877438	geckodriver	INFO	Listening on 127.0.0.1:40757
+1670256877443	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "35735" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileIUggUw"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670256878337	Marionette	INFO	Marionette enabled
+1670256878341	Marionette	INFO	Listening on port 42209
+Read port: 42209
+WebDriver BiDi listening on ws://127.0.0.1:35735
+1670256878452	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileIUggUw/search.json.mozlz4", (void 0)))
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 152: TypeError: date is undefined
+DevTools listening on ws://127.0.0.1:35735/devtools/browser/155295a7-3a8d-4ce0-b739-71aabf9180a7
+1670256881131	Marionette	INFO	Stopped listening on port 33153
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 304: NS_ERROR_FAILURE: Should pass a non-null uri
+1670256882344	Marionette	INFO	Stopped listening on port 38347
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1670256884001	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: moz-extension://ec167d61-893a-4d95-95d1-4ce789afcfa6."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.orbitxch.com."
+1670256977289	Marionette	INFO	Stopped listening on port 42209
+1670257006970	geckodriver	INFO	Listening on 127.0.0.1:42887
+1670257006974	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "44389" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileXelNC2"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670257007916	Marionette	INFO	Marionette enabled
+1670257007920	Marionette	INFO	Listening on port 46677
+Read port: 46677
+WebDriver BiDi listening on ws://127.0.0.1:44389
+1670257008018	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileXelNC2/search.json.mozlz4", (void 0)))
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 152: TypeError: date is undefined
+DevTools listening on ws://127.0.0.1:44389/devtools/browser/731c4373-930b-47cd-8bdb-c0453bcdf65f
+JavaScript error: resource://devtools/client/jsonview/Sniffer.sys.mjs, line 50: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIChannel.contentType]
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 304: NS_ERROR_FAILURE: Should pass a non-null uri
+1670257013213	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: moz-extension://7e2976a6-c1ec-41ea-a3a4-4b3dabbc518f."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.orbitxch.com."
+1670257148606	Marionette	INFO	Stopped listening on port 46677
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670257159152	geckodriver	INFO	Listening on 127.0.0.1:48499
+1670257159156	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "55023" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilexxrEoH"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670257160114	Marionette	INFO	Marionette enabled
+1670257160118	Marionette	INFO	Listening on port 34805
+Read port: 34805
+WebDriver BiDi listening on ws://127.0.0.1:55023
+1670257160217	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilexxrEoH/search.json.mozlz4", (void 0)))
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 152: TypeError: date is undefined
+DevTools listening on ws://127.0.0.1:55023/devtools/browser/39eb905d-1f68-4b53-aec3-450a650b54e9
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 304: NS_ERROR_FAILURE: Should pass a non-null uri
+1670257165860	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: moz-extension://8c35fdc2-d2dc-4e4e-b0a7-648fb550594e."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.orbitxch.com."
+1670257390811	Marionette	INFO	Stopped listening on port 34805
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670257392096	geckodriver	INFO	Listening on 127.0.0.1:59443
+1670257392101	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "47101" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileFqGz6H"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670257393031	Marionette	INFO	Marionette enabled
+1670257393035	Marionette	INFO	Listening on port 36959
+Read port: 36959
+WebDriver BiDi listening on ws://127.0.0.1:47101
+1670257393195	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileFqGz6H/search.json.mozlz4", (void 0)))
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 152: TypeError: date is undefined
+DevTools listening on ws://127.0.0.1:47101/devtools/browser/07534298-4d16-4759-aa67-0f73a3257d1a
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 304: NS_ERROR_FAILURE: Should pass a non-null uri
+1670257420221	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: moz-extension://25a1aa82-c8dd-4ea8-90df-5a1483ca10ff."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.orbitxch.com."
+1670257446856	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:220:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+console.error: (new TypeError("currentNode is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 66))
+TypeError: currentNode is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:66:20
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:313:10
+
+console.error: (new TypeError("currentNode is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 66))
+TypeError: currentNode is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:66:20
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:313:10
+
+console.error: (new TypeError("currentNode is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 66))
+TypeError: currentNode is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:66:20
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:313:10
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 574: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1670257850125	Marionette	INFO	Stopped listening on port 36959
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1670257851558	geckodriver	INFO	Listening on 127.0.0.1:54619
+1670257851563	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "50015" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileD7hMOH"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670257852508	Marionette	INFO	Marionette enabled
+1670257852511	Marionette	INFO	Listening on port 43241
+Read port: 43241
+WebDriver BiDi listening on ws://127.0.0.1:50015
+1670257852605	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileD7hMOH/search.json.mozlz4", (void 0)))
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 152: TypeError: date is undefined
+DevTools listening on ws://127.0.0.1:50015/devtools/browser/1097e145-3ef0-4017-9803-b501f287ad44
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 304: NS_ERROR_FAILURE: Should pass a non-null uri
+1670257858725	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: moz-extension://64edc6fc-9214-43ca-a6a7-7b448afe0d81."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.orbitxch.com."
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1670258274662	geckodriver	INFO	Listening on 127.0.0.1:39933
+1670258274667	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "36437" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileUD0Zk0"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670258275568	Marionette	INFO	Marionette enabled
+1670258275571	Marionette	INFO	Listening on port 33755
+WebDriver BiDi listening on ws://127.0.0.1:36437
+Read port: 33755
+1670258275940	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileUD0Zk0/search.json.mozlz4", (void 0)))
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 152: TypeError: date is undefined
+DevTools listening on ws://127.0.0.1:36437/devtools/browser/9d321424-e1f9-450c-9482-eb87523a283f
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 304: NS_ERROR_FAILURE: Should pass a non-null uri
+1670258281623	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: moz-extension://2bdfc90c-1dab-4623-b827-0e598e3b5934."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.orbitxch.com."
+1670258537501	Marionette	INFO	Stopped listening on port 33755
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1670258539101	geckodriver	INFO	Listening on 127.0.0.1:59651
+1670258539105	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "36033" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile4JIG6h"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670258539969	Marionette	INFO	Marionette enabled
+1670258539973	Marionette	INFO	Listening on port 35191
+Read port: 35191
+WebDriver BiDi listening on ws://127.0.0.1:36033
+1670258540071	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile4JIG6h/search.json.mozlz4", (void 0)))
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 152: TypeError: date is undefined
+DevTools listening on ws://127.0.0.1:36033/devtools/browser/6cdee8d0-ce27-4f6c-82a5-1e61f3be6885
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 304: NS_ERROR_FAILURE: Should pass a non-null uri
+1670258545826	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: moz-extension://cfe24c70-f69d-46eb-9360-7049ccabf707."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.orbitxch.com."
+1670259025101	Marionette	INFO	Stopped listening on port 35191
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670259066138	geckodriver	INFO	Listening on 127.0.0.1:37057
+1670259066143	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "52677" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileGHtwlV"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670259067099	Marionette	INFO	Marionette enabled
+1670259067102	Marionette	INFO	Listening on port 44393
+Read port: 44393
+WebDriver BiDi listening on ws://127.0.0.1:52677
+1670259067199	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileGHtwlV/search.json.mozlz4", (void 0)))
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 152: TypeError: date is undefined
+DevTools listening on ws://127.0.0.1:52677/devtools/browser/4feff63e-e12b-47b8-84c4-0abe5ecb7cb8
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 304: NS_ERROR_FAILURE: Should pass a non-null uri
+1670259072422	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: moz-extension://5a951117-f051-4cfb-a3fd-02bf6b58902f."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.orbitxch.com."
+1670259178702	geckodriver	INFO	Listening on 127.0.0.1:54197
+1670259178707	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "60711" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile1Y4Ise"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670259179642	Marionette	INFO	Marionette enabled
+1670259179645	Marionette	INFO	Listening on port 45385
+Read port: 45385
+WebDriver BiDi listening on ws://127.0.0.1:60711
+1670259179834	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile1Y4Ise/search.json.mozlz4", (void 0)))
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 152: TypeError: date is undefined
+DevTools listening on ws://127.0.0.1:60711/devtools/browser/794883ae-56c8-43eb-aabf-7db967b463f1
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 304: NS_ERROR_FAILURE: Should pass a non-null uri
+1670259183709	Marionette	INFO	Stopped listening on port 44393
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1670259185220	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: moz-extension://bbffbc9f-eddd-4886-b7d9-475b8ffed51a."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.orbitxch.com."
+1670259437838	geckodriver	INFO	Listening on 127.0.0.1:49697
+1670259437843	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "40121" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile6YgVRs"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670259438770	Marionette	INFO	Marionette enabled
+1670259438773	Marionette	INFO	Listening on port 37715
+Read port: 37715
+WebDriver BiDi listening on ws://127.0.0.1:40121
+1670259438924	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile6YgVRs/search.json.mozlz4", (void 0)))
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 152: TypeError: date is undefined
+1670259439932	Marionette	INFO	Stopped listening on port 45385
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+DevTools listening on ws://127.0.0.1:40121/devtools/browser/0908826d-290a-49a2-a8d5-8468c0b2497b
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 304: NS_ERROR_FAILURE: Should pass a non-null uri
+1670259445536	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: moz-extension://d9534e80-3d45-45af-9f0e-0388d5a49fe7."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.orbitxch.com."
+1670259551949	geckodriver	INFO	Listening on 127.0.0.1:38337
+1670259551954	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "46009" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileZn9cJK"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670259552963	Marionette	INFO	Marionette enabled
+1670259552966	Marionette	INFO	Listening on port 46433
+WebDriver BiDi listening on ws://127.0.0.1:46009
+Read port: 46433
+1670259553318	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileZn9cJK/search.json.mozlz4", (void 0)))
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 152: TypeError: date is undefined
+DevTools listening on ws://127.0.0.1:46009/devtools/browser/71020a12-a25f-4c60-99ba-f0fc91ceae93
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 304: NS_ERROR_FAILURE: Should pass a non-null uri
+1670259559427	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: moz-extension://7faf1d3f-d74a-43b7-8b2a-f8a300b18df6."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.orbitxch.com."
+1670259632250	Marionette	INFO	Stopped listening on port 37715
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1670342429022	geckodriver	INFO	Listening on 127.0.0.1:39633
+1670342429559	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "41261" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilehYboZp"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670342430777	Marionette	INFO	Marionette enabled
+1670342430781	Marionette	INFO	Listening on port 33261
+Read port: 33261
+WebDriver BiDi listening on ws://127.0.0.1:41261
+1670342430948	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilehYboZp/search.json.mozlz4", (void 0)))
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 152: TypeError: date is undefined
+DevTools listening on ws://127.0.0.1:41261/devtools/browser/dea96f54-3435-4ec1-9d35-c7b65fd24317
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 304: NS_ERROR_FAILURE: Should pass a non-null uri
+1670342436730	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: moz-extension://fa51063d-ae4a-46be-bed9-caca4acedcf2."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.orbitxch.com."
+1670353293127	Marionette	INFO	Stopped listening on port 33261
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
