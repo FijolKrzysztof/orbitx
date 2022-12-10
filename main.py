@@ -7,6 +7,8 @@ from src.webdriver_waits import alarm
 from src.sql_actions import create_new_table
 from src.data_display import display_data
 
+alarm_turned_on = False
+
 try:
     # create_new_table()
     # open_orbitx()

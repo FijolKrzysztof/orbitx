@@ -19,7 +19,7 @@ def login(driver):
     driver.find_element(By.CLASS_NAME, 'js-login').click()
 
 
-def listen(driver, listeners):
+def listen(driver, listeners, strategy):
     match_data = scrape_match_data(driver)
     counter = 60
     while True:
@@ -38,6 +38,11 @@ def listen(driver, listeners):
 
         else:
             counter += 1
+
+        if strategy == 'PENDULUM':
+            if check_how_many_unmatched_bets(driver) == 0:
+                listeners = []
+
 
         for listener in listeners:
             current_odds_match_listener = False
@@ -88,6 +93,11 @@ def place_bet(driver, bet_type, index, money):
     if 'biab_checked' in confirm_bets_button.get_attribute('class'):
         confirm_bets_button.click()
     driver.find_element(By.ID, 'biab_placeBetsBtn').click()
+
+
+
+def check_how_many_unmatched_bets(driver):
+    return driver.find_elements(By.CLASS_NAME, 'biab_bets-unmatched').length
 
 
 def scrape_match_data(driver):

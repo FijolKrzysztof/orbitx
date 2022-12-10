@@ -1,7 +1,20 @@
 import sqlite3
 
 
-def get_all():
+def get_column_names():
+    conn = sqlite3.connect('Matches.sqlite')
+    cur = conn.cursor()
+
+    cur.execute("SELECT * FROM matches")
+    names = list(map(lambda x: x[0], cur.description))
+
+    conn.commit()
+    conn.close()
+
+    return names
+
+
+def get_all_data():
     conn = sqlite3.connect('Matches.sqlite')
     cur = conn.cursor()
 

@@ -25,27 +25,27 @@ def open_orbitx():
     strategy = WebDriverWait(driver, 10).until(SpecifyStrategyPopup())
 
     if strategy == 'PENDULUM':
-        pendulum_strategy(driver)
+        pendulum_strategy(driver, strategy)
     if strategy == 'BIG_SHIFT':
-        big_shift_strategy(driver)
+        big_shift_strategy(driver, strategy)
     if strategy == 'COLLECT_DATA':
-        collect_data(driver)
+        collect_data(driver, strategy)
 
 
-def collect_data(driver):
+def collect_data(driver, strategy):
     listener = WebDriverWait(driver, 10).until(SpecifyRowIndexPopup())
 
-    listen(driver, [listener])
+    listen(driver, [listener], strategy)
 
 
-def pendulum_strategy(driver):
+def pendulum_strategy(driver, strategy):
     listener1 = WebDriverWait(driver, 10).until(SpecifyListenerPopup())
     listener2 = WebDriverWait(driver, 10).until(SpecifyListenerPopup())
 
-    listen(driver, [listener1, listener2])
+    listen(driver, [listener1, listener2], strategy)
 
 
-def big_shift_strategy(driver):
+def big_shift_strategy(driver, strategy):
     listener1 = WebDriverWait(driver, 10).until(SpecifyDirectionOfOddsMovement())
 
     listener2_type = 'LAY' if listener1['type'] == 'BACK' else 'BACK'
@@ -62,4 +62,4 @@ def big_shift_strategy(driver):
     listener1['step'] = '1'
     listener1['odds'] = get_current_odds(driver, listener1['type'], listener1['row'], listener1['step'])
 
-    listen(driver, [listener1, listener2])
+    listen(driver, [listener1, listener2], strategy)

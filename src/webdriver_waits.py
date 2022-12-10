@@ -5,6 +5,7 @@ import tkinter as tk
 from tkinter import LEFT, W, CENTER
 from multiprocessing import Process, Value
 from ctypes import c_bool
+from variables import alarm_turned_on
 
 
 class SpecifyListenerPopup:
@@ -190,8 +191,9 @@ def alarm():
         while True:
             if stop_alarm_arg.value:
                 return
-            os.system("beep -f 500 -l 100")
-            time.sleep(3)
+            if alarm_turned_on:
+                os.system("beep -f 500 -l 100")
+            time.sleep(5)
 
     p2 = Process(target=open_popup, args=(stop_alarm,))
     p1 = Process(target=make_sound, args=(stop_alarm,))

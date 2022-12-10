@@ -378,3 +378,70 @@ console.warn: LoginRecipes: "Falling back to a synchronous message for: moz-exte
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.orbitxch.com."
 1670353293127	Marionette	INFO	Stopped listening on port 33261
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670601421107	geckodriver	INFO	Listening on 127.0.0.1:46695
+1670601421641	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "56761" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileKTncmN"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670601422867	Marionette	INFO	Marionette enabled
+1670601422870	Marionette	INFO	Listening on port 44389
+Read port: 44389
+WebDriver BiDi listening on ws://127.0.0.1:56761
+1670601423045	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileKTncmN/search.json.mozlz4", (void 0)))
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 152: TypeError: date is undefined
+DevTools listening on ws://127.0.0.1:56761/devtools/browser/6330cc3d-1592-4beb-937a-1054f118f600
+JavaScript error: resource://devtools/client/jsonview/Sniffer.sys.mjs, line 50: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIChannel.contentType]
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 304: NS_ERROR_FAILURE: Should pass a non-null uri
+1670601429661	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: moz-extension://bd246559-5e5c-45ca-95e2-db9b392e134c."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.orbitxch.com."
+1670606849172	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:220:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1670606850251	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:220:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1670606859356	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:220:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1670615275721	geckodriver	INFO	Listening on 127.0.0.1:56287
+1670615276249	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "57527" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileSB6wy5"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670615277848	Marionette	INFO	Marionette enabled
+1670615277854	Marionette	INFO	Listening on port 46523
+Read port: 46523
+WebDriver BiDi listening on ws://127.0.0.1:57527
+1670615278083	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileSB6wy5/search.json.mozlz4", (void 0)))
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 152: TypeError: date is undefined
+DevTools listening on ws://127.0.0.1:57527/devtools/browser/28960dec-7b20-45e7-a932-07404b6a46c2
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 304: NS_ERROR_FAILURE: Should pass a non-null uri
+1670615283173	Marionette	INFO	Stopped listening on port 46523
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670615284040	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)
+1670675301755	geckodriver	INFO	Listening on 127.0.0.1:40127
+1670675302258	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "44389" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileyZLBVq"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670675303753	Marionette	INFO	Marionette enabled
+1670675303759	Marionette	INFO	Listening on port 37573
+Read port: 37573
+WebDriver BiDi listening on ws://127.0.0.1:44389
+1670675303986	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileyZLBVq/search.json.mozlz4", (void 0)))
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 152: TypeError: date is undefined
+DevTools listening on ws://127.0.0.1:44389/devtools/browser/934233f2-147b-444e-b7ab-c1bffdc92035
+1670675306886	Marionette	INFO	Stopped listening on port 37573
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670675307201	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)
+[2022-12-10T12:28:27Z ERROR glean_core] Can't persist ping lifetime data: Error { kind: Rkv(IoError(Os { code: 2, kind: NotFound, message: "Nie ma takiego pliku ani katalogu" })) }
