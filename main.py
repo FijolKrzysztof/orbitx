@@ -11,9 +11,9 @@ alarm_turned_on = False
 
 try:
     # create_new_table()
-    # open_orbitx()
+    open_orbitx()
     # webdriver_create_cookies()
-    display_data()
+    # display_data()
 
 except(Exception,):
     traceback.print_exc()

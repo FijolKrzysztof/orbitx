@@ -174,31 +174,20 @@ class SwitchedToNewTab:
 
 
 def alarm():
-    stop_alarm = Value(c_bool, False)
+    def close_window():
+        window.destroy()
 
-    def open_popup(stop_alarm_arg):
-        def close_popup():
-            stop_alarm_arg.value = True
-            window.destroy()
-
-        window = tk.Tk()
-        window.geometry('%dx%d+%d+%d' % (100, 100, 1000, 0))
-        button = tk.Button(text='Stop alarm', wraplength=100, width=10, height=10, command=close_popup)
-        button.pack()
-        window.mainloop()
-
-    def make_sound(stop_alarm_arg):
-        while True:
-            if stop_alarm_arg.value:
-                return
+    def make_sound():
+        try:
             if alarm_turned_on:
                 os.system("beep -f 500 -l 100")
-            time.sleep(5)
+            window.after(5000, make_sound)
+        except(Exception,):
+            pass
 
-    p2 = Process(target=open_popup, args=(stop_alarm,))
-    p1 = Process(target=make_sound, args=(stop_alarm,))
-    p2.start()
-    p1.start()
-    p1.join()
-    p2.join()
-
+    window = tk.Tk()
+    window.geometry('%dx%d+%d+%d' % (100, 100, 1000, 0))
+    button = tk.Button(text='Stop alarm', wraplength=100, width=10, height=10, command=close_window)
+    button.pack()
+    window.after(1000, make_sound)
+    window.mainloop()
