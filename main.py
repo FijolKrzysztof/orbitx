@@ -17,4 +17,4 @@ try:
 
 except(Exception,):
     traceback.print_exc()
-    # alarm()
+    alarm()

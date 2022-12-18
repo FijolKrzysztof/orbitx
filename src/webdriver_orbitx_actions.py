@@ -32,9 +32,10 @@ def listen(driver, listeners, strategy):
                 print('Match has started')
                 alarm()
                 return
-            odds = get_current_odds(driver, 'BACK', listeners[0]['row'])
-            if minute > 180 | add_odds(match_data['id'], odds, int(minute)):
-                counter = 0
+            if minute <= 180:
+                odds = get_current_odds(driver, 'BACK', listeners[0]['row'])
+                if add_odds(match_data['id'], odds, int(minute)):
+                    counter = 0
 
         else:
             counter += 1
@@ -54,11 +55,12 @@ def listen(driver, listeners, strategy):
                     current_odds_match_listener = True
             if current_odds_match_listener:
                 if 'UPDATE_LISTENER' in listener['functions']:
-                    update_listener(driver, listeners)
+                    update_listeners(driver, listeners)
                 if 'PLACE_BET' in listener['functions']:
                     place_bet(driver, listener['type'], listener['row'], listener['money'])
                 if 'ALARM' in listener['functions']:
                     alarm()
+                    listeners.clear()
                     counter = 60
         time.sleep(1)
 
@@ -113,6 +115,12 @@ def scrape_match_data(driver):
     return {'id': match_id, 'home': home, 'away': away, 'date': date, 'time': match_time, 'matched': matched}
 
 
-def update_listener(driver, listeners):
+def update_listeners(driver, listeners):
     for listener in listeners:
-        listener['odds'] = get_current_odds(driver, listener['type'], listener['row'], listener['step'])
+        if listener['step'] == '1':
+            listener['odds'] = get_current_odds(driver, listener['type'], listener['row'], listener['step'])
+        else:
+            step_size = get_current_odds(driver, listener['type'], listener['row'], '0') - get_current_odds(driver, listener['type'], listener['row'], '1')
+            current_odds = get_current_odds(driver, listener['type'], listener['row'], '0')
+            listener['odds'] = current_odds - (step_size * float(listener['step']))
+

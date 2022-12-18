@@ -35,6 +35,7 @@ def get_configured_webdriver(proxy_type):
         # for cookie in cookies:
         #     driver.add_cookie(cookie)
 
+        driver.install_addon('extensions/firefox-webext@zenmate.com.xpi')
         driver.install_addon('extensions/veepn_free_fast_security_vpn-2.1.7.xpi')
 
         try:

@@ -1,1 +1,1 @@
-alarm_turned_on = False
+alarm_turned_on = True
